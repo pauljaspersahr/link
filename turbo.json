@@ -1,0 +1,4 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": ["NODE_ENV", "AUTH_SECRET", "DATABASE_URL"]
+}
