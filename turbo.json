@@ -1,4 +1,9 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "globalEnv": ["NODE_ENV", "AUTH_SECRET", "DATABASE_URL"]
+  "globalEnv": [
+    "NODE_ENV",
+    "DATABASE_URL",
+    "CLERK_SECRET_KEY",
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY"
+  ]
 }
